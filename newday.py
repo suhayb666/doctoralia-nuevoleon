@@ -341,7 +341,7 @@ def main():
     """Main function to run the phone extractor"""
     
     # Configuration
-    EXCEL_FILE_PATH = "/home/ubuntu/doctoralia-bajacalifornia/doctoralia-bajacalifornia.xlsx"  # Update with your Excel file path
+    EXCEL_FILE_PATH = "/home/ubuntu/doctoralia-nuevoleon/doctoralia-nuevoleon.xlsx"  # Update with your Excel file path
     USE_PROXY = False  # Set to True if you need to use a Mexican proxy
     PROXY_ADDRESS = "proxy_ip:proxy_port"  # Update with actual proxy if needed
     START_ROW = 2  # Start from row 2 (assuming row 1 has headers)
@@ -366,6 +366,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
